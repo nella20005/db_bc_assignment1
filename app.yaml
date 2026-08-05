@@ -1,0 +1,10 @@
+command:
+  - python
+  - app.py
+
+resources:
+  - name: lakebase
+    lakebase:
+      project: projects/help-desk-tickets
+      branch: branches/main
+      endpoint: ep-autumn-cloud-d8mdtazf
