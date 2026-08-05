@@ -1,11 +1,8 @@
 import os
-import uuid
 import psycopg2
-from databricks.sdk import WorkspaceClient
 
 class LakebaseConnection:
     def __init__(self):
-        self.w = WorkspaceClient()
         self.conn = None
     
     def get_connection(self):

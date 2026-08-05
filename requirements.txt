@@ -1,2 +1,2 @@
-databricks-sdk
+streamlit
 psycopg2-binary
